@@ -1,0 +1,5 @@
+# Keyboard teleop parameters
+keyboard_teleop:
+  ros__parameters:
+    speed: 1.0
+    max_steering_angle: 0.6

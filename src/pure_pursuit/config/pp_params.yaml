@@ -1,0 +1,13 @@
+# Pure Pursuit Controller Parameters
+pure_pursuit_node:
+  ros__parameters:
+    wheelbase: 0.26              # 轴距 [m]（匹配 URDF: 前轴 x=0.13, 后轴 x=-0.13）
+    v_base: 1.0                  # 直线基准速度 [m/s]
+    R0: 0.5                      # 半速曲率半径 [m]
+    Ld_min: 1.0              # 最小预瞄距离 [m]
+    Ld_max: 2.0                  # 最大预瞄距离 [m]
+    accel: 0.3                 # 最大加速度 [m/s^2]
+    decel: 0.3                 # 最大减速度 [m/s^2]
+    cur_windows: 2.5             # 圆弧拟合窗口弧长 [m]
+    odom_timeout: 20             # 里程计超时计数
+    hz: 100                       # 控制频率 [Hz]

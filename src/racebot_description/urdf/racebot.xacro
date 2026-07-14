@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<robot name="racebot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- ==================== Links ==================== -->
+
+  <link name="base_footprint">
+  </link>
+
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <box size="0.28 0.1 0.03"/>
+      </geometry>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <material name="yellow">
+        <color rgba="0.8 0.3 0.1 0.5"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.28 0.1 0.03"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+
+  <joint name="base_link2base_footprint" type="fixed">
+    <parent link="base_footprint"/>
+    <child link="base_link"/>
+    <origin xyz="0 0 0.032" rpy="0 0 0"/>
+  </joint>
+
+  <link name="base_inertia">
+    <inertial>
+      <origin xyz="0 0 0"/>
+      <mass value="4"/>
+      <inertia ixx="0.0264" ixy="0" ixz="0" iyy="0.0294" iyz="0" izz="0.00364"/>
+    </inertial>
+  </link>
+
+  <joint name="chassis_inertia_joint" type="fixed">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <parent link="base_link"/>
+    <child link="base_inertia"/>
+  </joint>
+
+  <!-- ==================== Left Steering + Front Wheel ==================== -->
+
+  <link name="left_steering_hinge">
+    <visual>
+      <geometry>
+        <cylinder radius="0.01" length="0.005"/>
+      </geometry>
+      <origin xyz="0 0 0" rpy="1.57 0 0"/>
+      <material name="black">
+        <color rgba="0.0 0.0 0.0 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="0.01" length="0.005"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="1.57 0.0 0.0"/>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0"/>
+      <mass value="0.5"/>
+      <inertia ixx="1.35E-05" ixy="0" ixz="0" iyy="1.35E-05" iyz="0" izz="2.5E-05"/>
+    </inertial>
+  </link>
+
+  <joint name="left_steering_hinge_joint" type="revolute">
+    <parent link="base_link"/>
+    <child link="left_steering_hinge"/>
+    <origin xyz="0.13 0.065 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-0.6" upper="0.6" effort="5.0" velocity="1000.0"/>
+  </joint>
+
+  <link name="left_front_wheel">
+    <visual>
+      <geometry>
+        <cylinder radius="0.033" length="0.02"/>
+      </geometry>
+      <origin xyz="0 0 0" rpy="1.57 0 0"/>
+      <material name="black">
+        <color rgba="0.0 0.0 0.0 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="0.032" length="0.02"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="1.57 0.0 0.0"/>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0"/>
+      <mass value="2.0"/>
+      <inertia ixx="6.64E-04" ixy="0" ixz="0" iyy="6.64E-04" iyz="0" izz="1.02E-03"/>
+    </inertial>
+  </link>
+
+  <joint name="left_front_wheel_joint" type="continuous">
+    <parent link="left_steering_hinge"/>
+    <child link="left_front_wheel"/>
+    <origin xyz="0 0.025 0"/>
+    <axis xyz="0 1 0"/>
+    <limit effort="10" velocity="1000"/>
+  </joint>
+
+  <!-- ==================== Right Steering + Front Wheel ==================== -->
+
+  <link name="right_steering_hinge">
+    <visual>
+      <geometry>
+        <cylinder radius="0.01" length="0.005"/>
+      </geometry>
+      <origin xyz="0 0 0" rpy="1.57 0 0"/>
+      <material name="black">
+        <color rgba="0.0 0.0 0.0 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="0.01" length="0.005"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="1.57 0.0 0.0"/>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0"/>
+      <mass value="0.5"/>
+      <inertia ixx="1.35E-05" ixy="0" ixz="0" iyy="1.35E-05" iyz="0" izz="2.5E-05"/>
+    </inertial>
+  </link>
+
+  <joint name="right_steering_hinge_joint" type="revolute">
+    <parent link="base_link"/>
+    <child link="right_steering_hinge"/>
+    <origin xyz="0.13 -0.065 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-0.6" upper="0.6" effort="5.0" velocity="1000.0"/>
+  </joint>
+
+  <link name="right_front_wheel">
+    <visual>
+      <geometry>
+        <cylinder radius="0.033" length="0.02"/>
+      </geometry>
+      <origin xyz="0 0 0" rpy="1.57 0 0"/>
+      <material name="black">
+        <color rgba="0.0 0.0 0.0 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="0.032" length="0.02"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="1.57 0.0 0.0"/>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0"/>
+      <mass value="2.0"/>
+      <inertia ixx="6.64E-04" ixy="0" ixz="0" iyy="6.64E-04" iyz="0" izz="1.02E-03"/>
+    </inertial>
+  </link>
+
+  <joint name="right_front_wheel_joint" type="continuous">
+    <parent link="right_steering_hinge"/>
+    <child link="right_front_wheel"/>
+    <origin xyz="0 -0.025 0"/>
+    <axis xyz="0 1 0"/>
+    <limit effort="10" velocity="1000"/>
+  </joint>
+
+  <!-- ==================== Rear Wheels ==================== -->
+
+  <link name="left_rear_wheel">
+    <visual>
+      <geometry>
+        <cylinder radius="0.032" length="0.02"/>
+      </geometry>
+      <origin xyz="0 0 0" rpy="1.57 0 0"/>
+      <material name="black">
+        <color rgba="0.0 0.0 0.0 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="0.032" length="0.02"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="1.57 0.0 0.0"/>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0"/>
+      <mass value="2.0"/>
+      <inertia ixx="6.64E-04" ixy="0" ixz="0" iyy="6.64E-04" iyz="0" izz="1.02E-03"/>
+    </inertial>
+  </link>
+
+  <joint name="left_rear_wheel_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="left_rear_wheel"/>
+    <origin xyz="-0.13 0.09 0"/>
+    <axis xyz="0 1 0"/>
+    <limit effort="10" velocity="1000"/>
+  </joint>
+
+  <link name="right_rear_wheel">
+    <visual>
+      <geometry>
+        <cylinder radius="0.032" length="0.02"/>
+      </geometry>
+      <origin xyz="0 0 0" rpy="1.57 0 0"/>
+      <material name="black">
+        <color rgba="0.0 0.0 0.0 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="0.032" length="0.02"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="1.57 0.0 0.0"/>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0"/>
+      <mass value="2.0"/>
+      <inertia ixx="6.64E-04" ixy="0" ixz="0" iyy="6.64E-04" iyz="0" izz="1.02E-03"/>
+    </inertial>
+  </link>
+
+  <joint name="right_rear_wheel_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="right_rear_wheel"/>
+    <origin xyz="-0.13 -0.09 0"/>
+    <axis xyz="0 1 0"/>
+    <limit effort="10" velocity="1000"/>
+  </joint>
+
+  <!-- ==================== IMU ==================== -->
+
+  <link name="imu">
+    <visual>
+      <geometry>
+        <box size="0.01 0.01 0.005"/>
+      </geometry>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <material name="black">
+        <color rgba="0.0 0.0 0.0 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.01 0.01 0.005"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0"/>
+      <mass value="0.05"/>
+      <inertia ixx="6.64E-04" ixy="0" ixz="0" iyy="6.64E-04" iyz="0" izz="1.02E-03"/>
+    </inertial>
+  </link>
+
+  <joint name="imu_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="imu"/>
+    <origin xyz="0 0 0.02"/>
+    <axis xyz="0 0 1"/>
+  </joint>
+
+  <!-- ==================== Gazebo Surface Properties ==================== -->
+
+  <gazebo reference="base_link">
+    <mu1 value="0.0"/>
+    <mu2 value="0.0"/>
+    <kp value="10000000.0"/>
+    <kd value="1.0"/>
+    <material>Gazebo/Red</material>
+  </gazebo>
+
+  <gazebo reference="left_rear_wheel">
+    <mu1 value="2.0"/>
+    <mu2 value="2.0"/>
+    <kp value="10000000.0"/>
+    <kd value="1.0"/>
+    <fdir1 value="1 0 0"/>
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="right_rear_wheel">
+    <mu1 value="2.0"/>
+    <mu2 value="2.0"/>
+    <kp value="10000000.0"/>
+    <kd value="1.0"/>
+    <fdir1 value="1 0 0"/>
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="left_front_wheel">
+    <mu1 value="2.0"/>
+    <mu2 value="2.0"/>
+    <kp value="10000000.0"/>
+    <kd value="1.0"/>
+    <fdir1 value="0 0 1"/>
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="right_front_wheel">
+    <mu1 value="2.0"/>
+    <mu2 value="2.0"/>
+    <kp value="10000000.0"/>
+    <kd value="1.0"/>
+    <fdir1 value="0 0 1"/>
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="imu">
+    <material>Gazebo/Orange</material>
+    <gravity>true</gravity>
+    <sensor name="imu_sensor" type="imu">
+      <always_on>true</always_on>
+      <update_rate>100</update_rate>
+      <visualize>true</visualize>
+      <topic>__default_topic__</topic>
+      <plugin filename="libgazebo_ros_imu_sensor.so" name="imu_plugin">
+        <topicName>imu</topicName>
+        <bodyName>imu</bodyName>
+        <updateRateHZ>100.0</updateRateHZ>
+        <gaussianNoise>0.0</gaussianNoise>
+        <xyzOffset>0 0 0</xyzOffset>
+        <rpyOffset>0 0 0</rpyOffset>
+        <frameName>imu</frameName>
+      </plugin>
+      <pose>0 0 0 0 0 0</pose>
+    </sensor>
+  </gazebo>
+
+  <!-- ==================== ros2_control ==================== -->
+
+  <gazebo>
+    <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
+      <parameters>$(find racebot_description)/config/ros2_control.yaml</parameters>
+    </plugin>
+  </gazebo>
+
+  <ros2_control name="GazeboSystem" type="system">
+    <hardware>
+      <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+    </hardware>
+
+    <joint name="left_rear_wheel_joint">
+      <command_interface name="velocity"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+    <joint name="right_rear_wheel_joint">
+      <command_interface name="velocity"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+    <joint name="left_front_wheel_joint">
+      <command_interface name="velocity"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+    <joint name="right_front_wheel_joint">
+      <command_interface name="velocity"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+    <joint name="left_steering_hinge_joint">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+    <joint name="right_steering_hinge_joint">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+  </ros2_control>
+
+</robot>

@@ -1,0 +1,1144 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="reference_path">
+    <static>true</static>
+    <link name="path_link">
+      
+            <visual name="pt_0">
+              <pose>12.5316 20.7764 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_1">
+              <pose>12.5761 19.7452 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_2">
+              <pose>12.5872 18.6567 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_3">
+              <pose>12.565 17.5301 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_4">
+              <pose>12.4983 16.4607 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_5">
+              <pose>12.4872 15.3818 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_6">
+              <pose>12.5539 14.3315 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_7">
+              <pose>12.4093 13.3194 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_8">
+              <pose>12.3982 12.2596 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_9">
+              <pose>12.2203 11.2093 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_10">
+              <pose>11.9979 10.054 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_11">
+              <pose>11.6087 8.9655 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_12">
+              <pose>11.3085 8.0108 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_13">
+              <pose>10.8637 7.0846 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_14">
+              <pose>10.3634 5.977 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_15">
+              <pose>9.8741 4.9363 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_16">
+              <pose>9.3737 4.0483 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_17">
+              <pose>8.6954 3.1604 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_18">
+              <pose>7.9616 2.3106 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_19">
+              <pose>7.2721 1.5086 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_20">
+              <pose>6.3937 0.8211 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_21">
+              <pose>5.4374 0.3055 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_22">
+              <pose>4.47 -0.2387 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_23">
+              <pose>3.4582 -0.6397 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_24">
+              <pose>2.4685 -1.0407 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_25">
+              <pose>1.5456 -1.4895 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_26">
+              <pose>0.6116 -1.9191 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_27">
+              <pose>-0.4893 -2.3488 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_28">
+              <pose>-1.49 -2.8166 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_29">
+              <pose>-2.4796 -3.2845 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_30">
+              <pose>-3.4693 -3.781 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_31">
+              <pose>-4.6368 -4.1629 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_32">
+              <pose>-5.7043 -4.3157 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_33">
+              <pose>-6.8496 -4.4875 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_34">
+              <pose>-7.8726 -4.5735 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_35">
+              <pose>-8.9512 -4.688 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_36">
+              <pose>-10.0298 -4.8599 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_37">
+              <pose>-11.0194 -5.1368 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_38">
+              <pose>-12.0202 -5.3946 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_39">
+              <pose>-13.0654 -5.6333 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_40">
+              <pose>-14.1106 -5.8815 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_41">
+              <pose>-15.2782 -5.872 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_42">
+              <pose>-16.468 -6.0248 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_43">
+              <pose>-17.5021 -6.0916 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_44">
+              <pose>-18.5362 -6.4544 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_45">
+              <pose>-19.6815 -6.569 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_46">
+              <pose>-20.8046 -6.7027 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_47">
+              <pose>-21.8943 -6.6931 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_48">
+              <pose>-23.0952 -6.6931 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_49">
+              <pose>-24.0959 -6.4735 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_50">
+              <pose>-25.0967 -6.1584 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_51">
+              <pose>-26.0641 -5.7765 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_52">
+              <pose>-27.2205 -5.2991 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_53">
+              <pose>-28.1657 -4.8313 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_54">
+              <pose>-29.0441 -4.2488 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_55">
+              <pose>-29.867 -3.676 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_56">
+              <pose>-30.7676 -2.8835 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_57">
+              <pose>-31.6016 -2.1387 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_58">
+              <pose>-32.2021 -1.3081 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_59">
+              <pose>-32.6579 -0.3628 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_60">
+              <pose>-32.8581 0.7256 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_61">
+              <pose>-33.2139 1.7186 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_62">
+              <pose>-33.3918 2.8835 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_63">
+              <pose>-33.5809 3.9719 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_64">
+              <pose>-33.6253 5.1368 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_65">
+              <pose>-33.4141 6.2539 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_66">
+              <pose>-33.0583 7.3901 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_67">
+              <pose>-32.5468 8.469 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_68">
+              <pose>-32.0909 9.5288 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_69">
+              <pose>-31.3347 10.3595 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_70">
+              <pose>-30.5341 11.0852 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_71">
+              <pose>-29.5667 11.7822 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_72">
+              <pose>-28.377 12.4123 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_73">
+              <pose>-27.3873 12.7942 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_74">
+              <pose>-26.0975 13.0807 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_75">
+              <pose>-24.8076 13.3671 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_76">
+              <pose>-23.5845 13.5676 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_77">
+              <pose>-22.3835 13.6536 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_78">
+              <pose>-21.305 13.8827 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_79">
+              <pose>-20.2264 13.9496 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_80">
+              <pose>-19.1811 14.1405 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_81">
+              <pose>-18.0581 14.131 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_82">
+              <pose>-17.0017 14.2933 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_83">
+              <pose>-15.9565 14.2933 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_84">
+              <pose>-14.9112 14.3792 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_85">
+              <pose>-13.7659 14.4938 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_86">
+              <pose>-12.5984 14.7134 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_87">
+              <pose>-11.3197 14.8757 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_88">
+              <pose>-10.0965 15.0189 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_89">
+              <pose>-8.9178 15.3818 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_90">
+              <pose>-7.8393 15.5918 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_91">
+              <pose>-6.8607 15.8114 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_92">
+              <pose>-5.7377 16.0597 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_93">
+              <pose>-4.6591 16.2984 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_94">
+              <pose>-3.6138 16.6803 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_95">
+              <pose>-2.6131 16.919 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_96">
+              <pose>-1.5234 17.32 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_97">
+              <pose>-0.5115 17.7688 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_98">
+              <pose>0.467 18.2844 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_99">
+              <pose>1.5345 18.8668 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_100">
+              <pose>2.5241 19.3919 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_101">
+              <pose>3.6027 19.7834 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_102">
+              <pose>4.6924 20.0221 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_103">
+              <pose>5.7488 20.2417 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_104">
+              <pose>6.7495 20.3658 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_105">
+              <pose>7.7725 20.2226 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_106">
+              <pose>8.8066 20.0794 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_107">
+              <pose>9.8407 19.6402 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_108">
+              <pose>10.8081 19.1723 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_109">
+              <pose>11.6199 18.4944 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_110">
+              <pose>12.3871 17.721 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_111">
+              <pose>12.9542 16.8904 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_112">
+              <pose>13.5213 16.0502 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="pt_113">
+              <pose>13.8994 15.124 0.0 0 0 0</pose>
+              <geometry><sphere><radius>0.04</radius></sphere></geometry>
+              <material><ambient>0 1 0 1</ambient></material>
+            </visual>
+            <visual name="line_0">
+              <pose>12.55385 20.2608 0.0 0 -0.0 -1.5276694768257173</pose>
+              <geometry><box><size>1.0321597211672215 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_1">
+              <pose>12.58165 19.20095 0.0 0 -0.0 -1.5605991607285599</pose>
+              <geometry><box><size>1.0885565947620728 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_2">
+              <pose>12.5761 18.093400000000003 0.0 0 -0.0 -1.590499084877135</pose>
+              <geometry><box><size>1.126818707689928 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_3">
+              <pose>12.531649999999999 16.9954 0.0 0 -0.0 -1.6330870592930233</pose>
+              <geometry><box><size>1.0714780679043334 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_4">
+              <pose>12.492750000000001 15.92125 0.0 0 -0.0 -1.5810842203776627</pose>
+              <geometry><box><size>1.078957098312995 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_5">
+              <pose>12.52055 14.85665 0.0 0 -0.0 -1.507375827894714</pose>
+              <geometry><box><size>1.0524157828539062 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_6">
+              <pose>12.4816 13.82545 0.0 0 -0.0 -1.7127072139969604</pose>
+              <geometry><box><size>1.0223774107441932 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_7">
+              <pose>12.403749999999999 12.7895 0.0 0 -0.0 -1.5812696181184083</pose>
+              <geometry><box><size>1.0598581272981769 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_8">
+              <pose>12.309249999999999 11.73445 0.0 0 -0.0 -1.7385840091485174</pose>
+              <geometry><box><size>1.0652598274599487 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_9">
+              <pose>12.1091 10.63165 0.0 0 -0.0 -1.7609740220269643</pose>
+              <geometry><box><size>1.1765117296482859 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_10">
+              <pose>11.8033 9.50975 0.0 0 -0.0 -1.9141868659771804</pose>
+              <geometry><box><size>1.1559882741619825 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_11">
+              <pose>11.4586 8.488150000000001 0.0 0 -0.0 -1.8754515584804836</pose>
+              <geometry><box><size>1.0007857562935245 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_12">
+              <pose>11.0861 7.5477 0.0 0 -0.0 -2.0185128442096323</pose>
+              <geometry><box><size>1.0274694545338077 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_13">
+              <pose>10.61355 6.5308 0.0 0 -0.0 -1.9950608850137403</pose>
+              <geometry><box><size>1.2153509164023364 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_14">
+              <pose>10.11875 5.45665 0.0 0 -0.0 -2.0102917886459712</pose>
+              <geometry><box><size>1.1499873825394784 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_15">
+              <pose>9.623899999999999 4.4923 0.0 0 -0.0 -2.0839553630455447</pose>
+              <geometry><box><size>1.0192861031133509 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_16">
+              <pose>9.03455 3.60435 0.0 0 -0.0 -2.2231578499135507</pose>
+              <geometry><box><size>1.1173438593378497 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_17">
+              <pose>8.3285 2.7355 0.0 0 -0.0 -2.283074262657258</pose>
+              <geometry><box><size>1.1227744564247975 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_18">
+              <pose>7.6168499999999995 1.9096 0.0 0 -0.0 -2.2809096247980984</pose>
+              <geometry><box><size>1.0576456164519379 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_19">
+              <pose>6.8329 1.16485 0.0 0 -0.0 -2.4775065867782566</pose>
+              <geometry><box><size>1.1154563236631005 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_20">
+              <pose>5.91555 0.5633 0.0 0 -0.0 -2.6471089279024738</pose>
+              <geometry><box><size>1.0864405414011387 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_21">
+              <pose>4.9536999999999995 0.0334 0.0 0 -0.0 -2.6291737471605536</pose>
+              <geometry><box><size>1.1099623417035376 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_22">
+              <pose>3.9641 -0.43920000000000003 0.0 0 -0.0 -2.7642597857008986</pose>
+              <geometry><box><size>1.088365857604877 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_23">
+              <pose>2.96335 -0.8402000000000001 0.0 0 -0.0 -2.7566345190850368</pose>
+              <geometry><box><size>1.0678516235882212 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_24">
+              <pose>2.00705 -1.2651 0.0 0 -0.0 -2.6889704846800337</pose>
+              <geometry><box><size>1.0262386905588778 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_25">
+              <pose>1.0786 -1.7043 0.0 0 -0.0 -2.7104892605507747</pose>
+              <geometry><box><size>1.0280623327405787 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_26">
+              <pose>0.06115000000000001 -2.13395 0.0 0 -0.0 -2.7694614479568727</pose>
+              <geometry><box><size>1.1817880097547107 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_27">
+              <pose>-0.98965 -2.5827 0.0 0 -0.0 -2.7043037528924834</pose>
+              <geometry><box><size>1.1046435307374047 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_28">
+              <pose>-1.9848 -3.0505500000000003 0.0 0 -0.0 -2.699926710417264</pose>
+              <geometry><box><size>1.0946408406413493 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_29">
+              <pose>-2.97445 -3.53275 0.0 0 -0.0 -2.6766121967171554</pose>
+              <geometry><box><size>1.1072571246101783 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_30">
+              <pose>-4.05305 -3.9719499999999996 0.0 0 -0.0 -2.8254542326315932</pose>
+              <geometry><box><size>1.228374478731954 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_31">
+              <pose>-5.17055 -4.2393 0.0 0 -0.0 -2.9994201999918966</pose>
+              <geometry><box><size>1.0783803086110204 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_32">
+              <pose>-6.276949999999999 -4.4016 0.0 0 -0.0 -2.992698436380699</pose>
+              <geometry><box><size>1.158113694764033 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_33">
+              <pose>-7.3611 -4.5305 0.0 0 -0.0 -3.0577233842956013</pose>
+              <geometry><box><size>1.0266084940229168 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_34">
+              <pose>-8.4119 -4.63075 0.0 0 -0.0 -3.0358326127457698</pose>
+              <geometry><box><size>1.0846604122950185 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_35">
+              <pose>-9.4905 -4.773949999999999 0.0 0 -0.0 -2.9835485454321593</pose>
+              <geometry><box><size>1.0922122367012739 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_36">
+              <pose>-10.5246 -4.99835 0.0 0 -0.0 -2.868760123645725</pose>
+              <geometry><box><size>1.0276097362325831 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_37">
+              <pose>-11.5198 -5.2657 0.0 0 -0.0 -2.8894796360340202</pose>
+              <geometry><box><size>1.033470599485057 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_38">
+              <pose>-12.5428 -5.5139499999999995 0.0 0 -0.0 -2.917065941002382</pose>
+              <geometry><box><size>1.072110409426193 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_39">
+              <pose>-13.588000000000001 -5.7574000000000005 0.0 0 -0.0 -2.908444551606415</pose>
+              <geometry><box><size>1.0742654606753392 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_40">
+              <pose>-14.6944 -5.8767499999999995 0.0 0 -0.0 3.1334564850607705</pose>
+              <geometry><box><size>1.167638647013707 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_41">
+              <pose>-15.8731 -5.9483999999999995 0.0 0 -0.0 -3.013866838821324</pose>
+              <geometry><box><size>1.199571540175908 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_42">
+              <pose>-16.98505 -6.058199999999999 0.0 0 -0.0 -3.0770850454952035</pose>
+              <geometry><box><size>1.0362553015545914 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_43">
+              <pose>-18.01915 -6.273 0.0 0 -0.0 -2.8041728383027245</pose>
+              <geometry><box><size>1.0958953645307588 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_44">
+              <pose>-19.10885 -6.511699999999999 0.0 0 -0.0 -3.041863487249678</pose>
+              <geometry><box><size>1.1510192222547795 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_45">
+              <pose>-20.24305 -6.63585 0.0 0 -0.0 -3.023104784789462</pose>
+              <geometry><box><size>1.1310301941150829 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_46">
+              <pose>-21.34945 -6.697900000000001 0.0 0 -0.0 3.1327831173382172</pose>
+              <geometry><box><size>1.0897422860474861 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_47">
+              <pose>-22.49475 -6.6931 0.0 0 -0.0 3.141592653589793</pose>
+              <geometry><box><size>1.2008999999999972 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_48">
+              <pose>-23.59555 -6.5832999999999995 0.0 0 -0.0 2.925570464544213</pose>
+              <geometry><box><size>1.024511908178721 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_49">
+              <pose>-24.5963 -6.31595 0.0 0 -0.0 2.8365700036940797</pose>
+              <geometry><box><size>1.049232409907355 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_50">
+              <pose>-25.580399999999997 -5.96745 0.0 0 -0.0 2.7656034575798127</pose>
+              <geometry><box><size>1.0400530611464025 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_51">
+              <pose>-26.6423 -5.537800000000001 0.0 0 -0.0 2.7500725904854493</pose>
+              <geometry><box><size>1.2510682315525414 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_52">
+              <pose>-27.6931 -5.0652 0.0 0 -0.0 2.6820159236362944</pose>
+              <geometry><box><size>1.0546278395718558 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_53">
+              <pose>-28.6049 -4.54005 0.0 0 -0.0 2.5560372847757193</pose>
+              <geometry><box><size>1.0539889989938216 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_54">
+              <pose>-29.455550000000002 -3.9624 0.0 0 -0.0 2.533505873830114</pose>
+              <geometry><box><size>1.0026286700468927 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_55">
+              <pose>-30.317300000000003 -3.27975 0.0 0 -0.0 2.419955324627409</pose>
+              <geometry><box><size>1.1996402002267186 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_56">
+              <pose>-31.184600000000003 -2.5111 0.0 0 -0.0 2.412633095344922</pose>
+              <geometry><box><size>1.118160560921373 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_57">
+              <pose>-31.901850000000003 -1.7234 0.0 0 -0.0 2.196773516766113</pose>
+              <geometry><box><size>1.0249373688182124 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_58">
+              <pose>-32.43 -0.83545 0.0 0 -0.0 2.020082495682192</pose>
+              <geometry><box><size>1.0494502036780957 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_59">
+              <pose>-32.757999999999996 0.1814 0.0 0 -0.0 1.7527027139142977</pose>
+              <geometry><box><size>1.1066592068021668 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_60">
+              <pose>-33.036 1.2221 0.0 0 -0.0 1.9148533642270575</pose>
+              <geometry><box><size>1.0548187711640333 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_61">
+              <pose>-33.30285000000001 2.30105 0.0 0 -0.0 1.722342394242258</pose>
+              <geometry><box><size>1.1784058808407234 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_62">
+              <pose>-33.48635 3.4277 0.0 0 -0.0 1.7428204074421556</pose>
+              <geometry><box><size>1.1047051054466974 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_63">
+              <pose>-33.6031 4.55435 0.0 0 -0.0 1.60889274548499</pose>
+              <geometry><box><size>1.1657458427976486 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_64">
+              <pose>-33.5197 5.6953499999999995 0.0 0 -0.0 1.383940856544126</pose>
+              <geometry><box><size>1.1368895504841277 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_65">
+              <pose>-33.2362 6.822 0.0 0 -0.0 1.2673202228062435</pose>
+              <geometry><box><size>1.1906066016951182 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_66">
+              <pose>-32.80255 7.92955 0.0 0 -0.0 1.1280874771385816</pose>
+              <geometry><box><size>1.1940089865658479 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_67">
+              <pose>-32.31885 8.998899999999999 0.0 0 -0.0 1.1645501600853168</pose>
+              <geometry><box><size>1.1536987691767733 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_68">
+              <pose>-31.7128 9.94415 0.0 0 -0.0 0.8323105960443781</pose>
+              <geometry><box><size>1.1233436384294855 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_69">
+              <pose>-30.9344 10.72235 0.0 0 -0.0 0.7363645768128798</pose>
+              <geometry><box><size>1.0805558060553857 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_70">
+              <pose>-30.0504 11.4337 0.0 0 -0.0 0.6243443074918553</pose>
+              <geometry><box><size>1.1923387773615326 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_71">
+              <pose>-28.97185 12.097249999999999 0.0 0 -0.0 0.48706914353277014</pose>
+              <geometry><box><size>1.3462585561473714 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_72">
+              <pose>-27.88215 12.60325 0.0 0 -0.0 0.3682702355554536</pose>
+              <geometry><box><size>1.0608268944554518 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_73">
+              <pose>-26.7424 12.93745 0.0 0 -0.0 0.21857864278418007</pose>
+              <geometry><box><size>1.3212366517774168 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_74">
+              <pose>-25.452550000000002 13.2239 0.0 0 -0.0 0.21848835007393724</pose>
+              <geometry><box><size>1.3213125935977446 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_75">
+              <pose>-24.19605 13.46735 0.0 0 -0.0 0.16248258300335994</pose>
+              <geometry><box><size>1.2394248101438043 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_76">
+              <pose>-22.984 13.610600000000002 0.0 0 -0.0 0.07148497957632557</pose>
+              <geometry><box><size>1.2040751637667777 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_77">
+              <pose>-21.844250000000002 13.76815 0.0 0 -0.0 0.2093133106511551</pose>
+              <geometry><box><size>1.102564764537668 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_78">
+              <pose>-20.765700000000002 13.91615 0.0 0 -0.0 0.0619454918980242</pose>
+              <geometry><box><size>1.0806727395469897 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_79">
+              <pose>-19.70375 14.04505 0.0 0 -0.0 0.18063632132599056</pose>
+              <geometry><box><size>1.06258877276207 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_80">
+              <pose>-18.6196 14.13575 0.0 0 -0.0 -0.008459281739982947</pose>
+              <geometry><box><size>1.1230401818278821 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_81">
+              <pose>-17.529899999999998 14.212150000000001 0.0 0 -0.0 0.1524430372288763</pose>
+              <geometry><box><size>1.0687947651443659 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_82">
+              <pose>-16.4791 14.2933 0.0 0 -0.0 0.0</pose>
+              <geometry><box><size>1.0451999999999995 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_83">
+              <pose>-15.43385 14.33625 0.0 0 -0.0 0.08199312676718085</pose>
+              <geometry><box><size>1.0488235790637062 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_84">
+              <pose>-14.33855 14.4365 0.0 0 -0.0 0.0997291663401143</pose>
+              <geometry><box><size>1.1510192222547795 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_85">
+              <pose>-13.18215 14.6036 0.0 0 -0.0 0.1859219255671386</pose>
+              <geometry><box><size>1.1879732362305142 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_86">
+              <pose>-11.95905 14.794550000000001 0.0 0 -0.0 0.12625069950941334</pose>
+              <geometry><box><size>1.2889588744409193 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_87">
+              <pose>-10.7081 14.9473 0.0 0 -0.0 0.1165395062692729</pose>
+              <geometry><box><size>1.231553685390936 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_88">
+              <pose>-9.50715 15.20035 0.0 0 -0.0 0.2986718109802133</pose>
+              <geometry><box><size>1.233300490553702 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_89">
+              <pose>-8.37855 15.486799999999999 0.0 0 -0.0 0.19230858900374193</pose>
+              <geometry><box><size>1.0987548634704647 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_90">
+              <pose>-7.35 15.7016 0.0 0 -0.0 0.22074538179696823</pose>
+              <geometry><box><size>1.0029367477563085 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_91">
+              <pose>-6.2992 15.93555 0.0 0 -0.0 0.21760327046914146</pose>
+              <geometry><box><size>1.150122554339318 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_92">
+              <pose>-5.1983999999999995 16.17905 0.0 0 -0.0 0.2177950948670891</pose>
+              <geometry><box><size>1.1046970851776527 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_93">
+              <pose>-4.13645 16.48935 0.0 0 -0.0 0.35028337393684056</pose>
+              <geometry><box><size>1.1128790140891318 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_94">
+              <pose>-3.1134500000000003 16.79965 0.0 0 -0.0 0.23415744224414814</pose>
+              <geometry><box><size>1.0287750871789227 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_95">
+              <pose>-2.06825 17.119500000000002 0.0 0 -0.0 0.35261184646276217</pose>
+              <geometry><box><size>1.161140426477349 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_96">
+              <pose>-1.01745 17.5444 0.0 0 -0.0 0.4174538501081243</pose>
+              <geometry><box><size>1.1069611781810593 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_97">
+              <pose>-0.022249999999999964 18.026600000000002 0.0 0 -0.0 0.48495797953178466</pose>
+              <geometry><box><size>1.1060314688109025 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_98">
+              <pose>1.00075 18.5756 0.0 0 -0.0 0.49943860388688205</pose>
+              <geometry><box><size>1.21603701012757 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_99">
+              <pose>2.0293 19.129350000000002 0.0 0 -0.0 0.4878412662347502</pose>
+              <geometry><box><size>1.1202848610956044 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_100">
+              <pose>3.0633999999999997 19.58765 0.0 0 -0.0 0.34818279463651164</pose>
+              <geometry><box><size>1.1474537942767025 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_101">
+              <pose>4.14755 19.902749999999997 0.0 0 -0.0 0.21564504578862548</pose>
+              <geometry><box><size>1.1155374399812852 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_102">
+              <pose>5.2206 20.1319 0.0 0 -0.0 0.2049568524185965</pose>
+              <geometry><box><size>1.0789833733658742 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_103">
+              <pose>6.24915 20.30375 0.0 0 -0.0 0.12338324927776205</pose>
+              <geometry><box><size>1.0083656578840832 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_104">
+              <pose>7.261 20.2942 0.0 0 -0.0 -0.13907676690909165</pose>
+              <geometry><box><size>1.0329739783750602 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_105">
+              <pose>8.28955 20.151 0.0 0 -0.0 -0.13760279362213118</pose>
+              <geometry><box><size>1.0439679353313487 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_106">
+              <pose>9.32365 19.8598 0.0 0 -0.0 -0.4016310426087098</pose>
+              <geometry><box><size>1.1235032042677942 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_107">
+              <pose>10.3244 19.40625 0.0 0 -0.0 -0.4504964964106241</pose>
+              <geometry><box><size>1.0746130326773444 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_108">
+              <pose>11.213999999999999 18.83335 0.0 0 -0.0 -0.6957551880648556</pose>
+              <geometry><box><size>1.057623586159084 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_109">
+              <pose>12.003499999999999 18.1077 0.0 0 -0.0 -0.789422547746995</pose>
+              <geometry><box><size>1.0893775286832381 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_110">
+              <pose>12.67065 17.3057 0.0 0 -0.0 -0.9717351558586256</pose>
+              <geometry><box><size>1.0057329516327884 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_111">
+              <pose>13.23775 16.4703 0.0 0 -0.0 -0.9770752784117032</pose>
+              <geometry><box><size>1.0136757124445661 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+            <visual name="line_112">
+              <pose>13.71035 15.5871 0.0 0 -0.0 -1.183217748020403</pose>
+              <geometry><box><size>1.0004029438181394 0.02 0.01</size></box></geometry>
+              <material><ambient>0 0.8 0 1</ambient></material>
+            </visual>
+    </link>
+  </model>
+</sdf>
